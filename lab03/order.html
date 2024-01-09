@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="css/mystyle.css">
+        <title>ใบสมัครงาน</title>
+        <style>
+        form {
+            text-align: left;
+            display: inline-block;
+        }
+        body {
+            text-align: center;
+        }
+        form {
+            text-align: left;
+            display: inline-block;
+        }
+        body {
+            text-align: center;
+        }
+        form {
+            text-align: left;
+            display: inline-block;
+        }
+        
+        </style>
+    </head>
+    <body>
+        <div class="div">
+        <nav role="navigation">
+        <h1>ใบสมัครงาน</h1>
+        <a href="main.html">Main</a>
+        </nav>
+        </div><br>
+
+        <form action="job-application.php" method="post">
+
+            <table>
+                <tr>
+                    <td><b><label for="firstname">ชื่อ *</label></b></td>
+                    <td><b><label for="lastname">นามสกุล *</label></b></td>
+                </tr>
+                <tr>
+                    <td><input type="text" id="firstname" name="firstname" required /></td>
+                    <td><input type="text" id="lastname" name="lastname" required /></td>
+                </tr>
+            </table>
+            <table>
+                <tr>
+                    <td><b><label for="email">อีเมล *</label></b></td>
+                </tr>
+                <tr>
+                    <td><input type="email" id="email" name="email" style="width: 335px;" required/></td>
+                </tr>
+                <tr>
+                    <td><b><label for="web">เว็บไซต์ผลงาน </label></b></td>
+                </tr>
+            </table>
+            <table>
+                <tr>
+                    <td><input type="url" id="web" name="web" placeholder="http://" style="width: 335px;" required/></td>
+                </tr>
+                <tr>
+                    <td><b><label for="desiredposition">ตำแหน่งที่ต้องการสมัคร *</label></b></td>
+                </tr>
+            </table>
+            <table>
+                <tr>
+                    <td><input type="text" id="desiredposition" name="desiredposition" style="width: 335px;" required/></td>
+                </tr>
+            </table>
+            <table>
+                <tr>
+                    <td><b><label for="salary">เงินเดือนที่ต้องการ</label></b></td>
+                    <td><b><label for="start_date">จะเริ่มงานได้เมื่อไหร่</label></b></td>
+                </tr>
+                <tr>
+                    <td><input type="number" id="desiredSalary" name="desiredSalary" required /></td>
+                    <td><input type="text" id="start_date" name="start_date" required /></td>
+                </tr>
+            </table>
+            <table>
+                <tr>
+                    <td><b><label for="phoneNumber">โทรศัพท์มือถือ *</label></b></td>
+                    <td><b><label for="homephoneNumber">โทรศัพท์บ้าน</label></b></td>
+                </tr>
+                <tr>
+                    <td><input type="tel" id="phoneNumber" name="phoneNumber" required /></td>
+                    <td><input type="tel" id="homephoneNumber" name="homephoneNumber" required /></td>
+                </tr>
+            </table>
+            <table>
+                <tr>
+                    <td><b><label for="moveAddress">คุณสะดวกที่จะย้ายที่อยู่หรือไม่</label></b></td>
+                </tr>
+                <td>
+                    <input type="radio" id="yes" name="moveAddress" value="yes" required/>
+                    <label for="convenient">สะดวก</label>
+                    <input type="radio" id="no" name="moveAddress" value="no" required/>
+                    <label for="inconvenient">ไม่สะดวก</label>
+                    <input type="radio" id="maybe" name="moveAddress" value="maybe" required/>
+                    <label for="notsure">ไม่แน่ใจ</label>  
+                </td>
+            </table>
+            <table>
+                <tr>
+                    <td><b><label for="lastestJobdescrip">ลักษณะงานที่ทำในที่ทำงานล่าสุด</label></b></td>
+                </tr>
+                <tr>
+                    <td><input type="text" id="lastestJobdescrip" name="lastestJobdescrip" style="width: 342px;" required/></td>
+                </tr>
+            </table>
+            <table>
+                <tr>
+                    <td><b><label for="question">คำถาม</label></b></td>
+                </tr>
+                <tr>
+                    <td><textarea name="question" id="question" rows="7" cols="45" ></textarea></td>
+                </tr>
+                <tr>
+                    <td colspan="2" style="text-align: center;">
+                        <button type="submit">ส่งใบสมัคร</button>
+                    </td>
+                </tr>
+            </table>
+        <nav role="navigation"><br>
+            <a href="blog.html">ย้อนกลับ</a>
+        </nav>
+        </form>
+    </body>
+</html>
