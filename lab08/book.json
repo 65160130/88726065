@@ -1,0 +1,26 @@
+[
+    {
+        "id": 1,
+        "name": "Harry potter",
+        "price": "500",
+        "author1": "JK Rowling",
+        "author2": "",
+        "author3": ""
+    },
+    {
+        "id": 2,
+        "name": "การเขียนโปรแกรมด้วย JAVA",
+        "price": "279",
+        "author1": "รศ.ธีรวัฒน์ ประกอบผล",
+        "author2": "",
+        "author3": ""
+    },
+    {
+        "id": 3,
+        "name": "Actually, I'm an Introvert",
+        "price": "329",
+        "author1": "นัมอินชุก",
+        "author2": "",
+        "author3": ""
+    }
+]
